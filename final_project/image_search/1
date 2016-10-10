@@ -1,0 +1,28 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Wed Oct  5 11:38:40 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:58:51
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project/image_search
+detected binary path: /vagrant/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/image_search.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1cec030
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1cec030 pid: 2375 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2375, cores: 1)
+[pid: 2375|app: 0|req: 1/1] 10.0.2.2 () {42 vars in 740 bytes} [Wed Oct  5 11:39:38 2016] GET / => generated 1075 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 0)
